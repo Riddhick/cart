@@ -35,7 +35,7 @@ export default function Product(){
     }
 
     function routeChange(){
-        const path='/cart'
+        const path='/viewcart'
         navigate(path)
     }
     return(

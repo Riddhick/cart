@@ -10,8 +10,13 @@ const router=createBrowserRouter([
   },
   {
     path:'cart',
+    element:<Product/>
+  },
+  {
+    path:'viewcart',
     element:<Cart/>
   }
+
 ])
 
 function App() {
