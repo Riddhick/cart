@@ -9,10 +9,6 @@ const router=createBrowserRouter([
     element:<Product/>
   },
   {
-    path:'cart',
-    element:<Product/>
-  },
-  {
     path:'viewcart',
     element:<Cart/>
   }
